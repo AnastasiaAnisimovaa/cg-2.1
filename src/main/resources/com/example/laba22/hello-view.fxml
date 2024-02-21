@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba22.Controller">
+   <children>
+      <TextField fx:id="getX1" layoutX="8.0" layoutY="15.0" promptText="x1" text="100" />
+      <TextField fx:id="getY1" layoutX="8.0" layoutY="46.0" promptText="y1" text="100" />
+      <TextField fx:id="getX2" layoutX="445.0" layoutY="15.0" promptText="x2" text="300" />
+      <TextField fx:id="getY2" layoutX="445.0" layoutY="46.0" promptText="y2" text="100" />
+      <Button fx:id="execute" layoutX="240.0" layoutY="34.0" mnemonicParsing="false" text="Нарисовать линию" />
+      <AnchorPane layoutX="87.0" layoutY="98.0" prefHeight="244.0" prefWidth="381.0" style="-fx-background-color: fafafa;">
+         <children>
+            <Canvas fx:id="mainCanvas" height="244.0" layoutY="-1.0" width="426.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
