@@ -14,6 +14,12 @@ public class Main extends Application {
         stage.setScene(new Scene(root));
         stage.setTitle("Rasterization app");
         stage.show();
+        System.out.println("kdfedfld");
+        System.out.println("kdfedfld");
+        System.out.println("kdfedfld");
+        System.out.println("kdfedfld");
+
+
     }
 
     public static void main(String[] args) {
